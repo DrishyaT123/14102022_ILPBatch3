@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="true"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value=""/>
+			<item value="D:\ILP Experion\Shared Document by fadi\20102022_UseCaseDiscussion_Jithin"/>
+			<item value="D:\ILP Experion\Shared Document by fadi\19102022_ILP_Inheritance"/>
+			<item value="D:\ILP Experion\Shared Document by fadi\17102022_ILP_OOP_POJO_v1.3"/>
+			<item value="D:\ILP Experion\Shared Document by fadi\17102022_ILP_OOP_POJO_v1.0"/>
+			<item value="D:\ILP Experion\Shared Document by fadi\17102022_ILP_OOP_POJO"/>
+			<item value="D:\ILP Experion\Shared Document by fadi\18102022_ILP_Eclipse_Task2_updated"/>
+			<item value="D:\14102022_ILP_Experion_WS\17102022_ILP_OOP_POJO"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value="D:\ILP Experion\Shared Document by fadi\17102022-Assignment.zip"/>
+			<item value="D:\ILP Experion\Shared Document by fadi\bank.zip"/>
+			<item value="D:\ILP Experion\Shared Document by fadi\BankAssignment.zip"/>
+			<item value="D:\ILP Experion\Shared Document by fadi\bank task.zip"/>
+			<item value=""/>
+			<item value="D:\ILP Experion\Shared Document by fadi\18102022_Task2Final.zip"/>
+			<item value="D:\ILP Experion\Shared Documents by Suneesh\15_10_22\DemonstrationProgram14102022.zip"/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="D:\ILP Experion\Shared Document by fadi\17102022\SuperMarket (1).zip"/>
+			<item value="D:\14102022_ILP_Experion_WS\17102022_ILP_OOP_POJO"/>
+		</list>
+	</section>
+</section>

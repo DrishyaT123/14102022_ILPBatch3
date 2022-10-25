@@ -1,0 +1,33 @@
+package com.assignment_basic_programming;
+
+import java.util.Scanner;
+
+public class WordCount {
+
+	public static void main(String[] args) {
+		// Program to count the number of words in a given string sentence
+		Scanner in= new Scanner(System.in);
+        String str;
+        int c = 0;
+ 
+        //Enter a string
+        System.out.print("Enter a String/Sentence: ");
+        str = in.nextLine();
+        
+        //Loop through the string
+        for(int i=0; i<str.length(); i++){
+            //check for white space and increment counter
+            if(str.charAt(i) == ' ')
+                c++;                      
+        }
+        
+        //add 1 more to the counter value
+        c = c+1;   
+        
+        //output the counter value
+        System.out.println("Number of words: "+c);
+    }
+
+	}
+
+}

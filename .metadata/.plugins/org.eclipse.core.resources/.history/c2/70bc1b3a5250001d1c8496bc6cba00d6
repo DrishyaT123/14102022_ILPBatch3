@@ -1,0 +1,50 @@
+package com.ilpexperion.utility;
+
+import java.util.Scanner;
+
+import com.ilpexperion.entity.Account;
+import com.ilpexperion.service.Service;
+
+public class BankingUtility {
+
+	public static void main(String[] args) {
+		Account account = null;
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("********Welcome**********");
+		System.out.println("1.Create Account 2.Manage Account 3.Exit");
+		int choice = scanner.nextInt();
+		
+		if (choice == 1) {
+			
+					System.out.println("1.Savings Maximum Account 2.Current Account 3.Exit");
+		
+					switch (choice) {
+					case 1:
+							accountList.add(Service.createAccount("Savings Maximum Account")); //create card object and return
+							break;
+					case 2:
+						accountList.add(Service.createProduct("Current Account"));
+						break;
+					case 3:
+						accountList.add(Service.createProduct("Loan Account"));
+						break;
+					default : System.out.println("Invalid Entry!!!");
+					}
+					System.out.println("Do you want to continue - (y/n) - ");
+				//	mainChoice= scanner.next().charAt(0);
+				//}while(mainChoice=='y');
+}
+		else if(choice == 2) {
+			
+			
+		}
+		
+      else if(choice == 3) {
+			
+			System.out.println("Thank you");
+		}
+			
+
+	}
+
+}

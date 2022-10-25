@@ -1,0 +1,30 @@
+package com.ilpexperion.service;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+import com.ilpexperion.entity.Account;
+
+import com.ilpexperion.service.AccountService;
+
+
+
+public class AccountService {
+	
+public static Account createAccount(String accountName) {	//returns a account object
+		
+		
+	ArrayList<AccountService> accountServiceList=new ArrayList<AccountService>();
+	
+	
+
+	}
+  return();
+
+public static Account manageAccount(String accountName) {
+	
+	
+
+}
+}
+

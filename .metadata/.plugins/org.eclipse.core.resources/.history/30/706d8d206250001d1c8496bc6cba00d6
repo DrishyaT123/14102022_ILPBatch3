@@ -1,0 +1,22 @@
+package com.ilpexperion.entity;
+
+public class Customer {
+	
+	private String CustomerId;
+
+	public Customer(String customerName) {
+		super();
+		CustomerId = CustomerId;
+	}
+
+	public String getCustomerId() {
+		return CustomerId;
+	}
+
+	public void setCustomerName(String CustomerId) {
+		CustomerId = CustomerId;
+	}
+	
+	
+
+}

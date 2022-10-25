@@ -1,0 +1,20 @@
+package com.assignment_basic_programming;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class CharacterReplace {
+
+	public static void main(String[] args) {
+		//Program to count the occurrence of the given character in a string and replace it with a new character
+
+		Scanner scanner = new Scanner(System.in);
+		ArrayList<String> list = new ArrayList<String>();
+		System.out.println("Enter the String :");
+		System.out.println("Enter the character of which you need to find the frequency and which is to be replaced - ");
+		String element = scanner.nextLine(0);
+		
+		for (int i=0; i<s.length(); i++) {
+	}
+
+}

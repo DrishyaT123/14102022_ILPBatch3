@@ -1,0 +1,39 @@
+package com.ilpexperion.service;
+
+import java.util.ArrayList;
+
+import com.ilpexperion.entity.Account;
+import com.ilpexperion.service.AccountService;
+
+
+
+public class AccountService {
+	
+public static Account createProduct(String productType) {	//returns a product object
+		
+		
+		ArrayList<AccountService> bankServicesList=new ArrayList<AccountService>();
+		accountServiceList.add(new AccountService("SOB","Online Banking") );
+		accountServiceList.add(new AccountService("SOB","Mobile Banking") );
+		accountServiceList.add(new AccountService("SOB","Cash Deposit") );
+		//BankServices bankServices = new BankServices("S0B100","Online Banking");
+		BankServices cardbankServices = new BankServices("S0B100","Generate pin");
+		Product product = null;
+		if(productType.compareTo("Cards")==0)
+		{
+			//Card card = new Card("MC100","Master Card","Cards","Master");
+			product = new Card("MC100","Master Card","Cards","Master",cardbankServices); //goes to card constructor
+		}
+		else if(productType.compareTo("Accounts")==0)
+		{
+			product = new Account("HDFC100","Woman Savings Account","Accounts","Savings",bankServicesList); //goes to account constructor
+		}
+		return product;
+	}
+
+
+
+	
+
+	}
+

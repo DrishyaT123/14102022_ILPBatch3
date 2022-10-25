@@ -1,0 +1,10 @@
+package com.assignment_basic_programming;
+
+public class CharacterReplace {
+
+	public static void main(String[] args) {
+		//Program to count the occurrence of the given character in a string and replace it with a new character
+
+	}
+
+}

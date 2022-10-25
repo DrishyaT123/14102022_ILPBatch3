@@ -1,0 +1,16 @@
+package com.ilpexperion.utility;
+
+import java.util.Scanner;
+
+import com.ilpexperion.entity.Account;
+
+public class BankingUtility {
+
+	public static void main(String[] args) {
+		Account account = null;
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("1.Create Account 2.Manage Account 3.Exit");
+
+	}
+
+}

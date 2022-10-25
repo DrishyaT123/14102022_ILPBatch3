@@ -1,0 +1,31 @@
+package com.ilpexperion.service;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+import com.ilpexperion.entity.Account;
+
+import com.ilpexperion.service.AccountService;
+
+
+
+public class AccountService {
+	
+public static Account createAccount(String accountName) {	//returns a account object
+		
+		
+	Scanner scanner = new Scanner(System.in);
+    System.out.println("Enter Name - ");
+    String customerName = scanner.nextLine();
+    
+    return account;
+
+	}
+
+  
+	
+	
+
+}
+
+

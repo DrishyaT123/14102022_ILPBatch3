@@ -1,0 +1,17 @@
+package com.assignment_basic_programming;
+
+public class Factorial {
+	
+	int number;
+	int i;
+	fact = 1;
+	
+	public int findFactoril()
+	{
+		
+		 for(i=1;i<=number;i++){    
+		      fact=fact*i;    
+
+	}
+
+}

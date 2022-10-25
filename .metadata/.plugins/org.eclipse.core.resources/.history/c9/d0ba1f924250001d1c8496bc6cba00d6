@@ -1,0 +1,12 @@
+package com.ilpexperion.service;
+
+import com.ilpexperion.entity.Account;
+
+public class AccountService {
+
+	public static void main(String[] args) {
+		public static Account createAccount(String accountType) {
+
+	}
+
+}}
